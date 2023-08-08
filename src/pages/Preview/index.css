@@ -1,0 +1,15 @@
+.card {
+  font-size: 100px;
+  width: 140px;
+  height: 240px;
+  display: flex;
+  user-select: none;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 0 1px hsl(0deg 0% 0% / 0.075), 0 0 2px hsl(0deg 0% 0% / 0.075),
+    0 0 4px hsl(0deg 0% 0% / 0.075), 0 0 8px hsl(0deg 0% 0% / 0.075),
+    0 0 16px hsl(0deg 0% 0% / 0.075);
+  transform-origin: 10% 60%;
+}

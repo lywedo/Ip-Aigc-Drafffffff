@@ -1,0 +1,49 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  transform: translateY(-20%);
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 260px;
+  height: 360px;
+  border-radius: 20px;
+}
+
+.swiper-slide .swiper-slide-shadow-left, .swiper-slide .swiper-slide-shadow-right {
+  transform: rotateZ(10deg);
+  border-radius: 20px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 260px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.2);
+}
+
+.privacy-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #9900ff;
+  z-index: 2;
+}
